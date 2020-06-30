@@ -8,5 +8,6 @@ router.get('/', (req, res) => {
 });
 
 router.get('/users', userController.index);
+router.post('/users/create', userController.create);
 
 export default router;
